@@ -1,4 +1,4 @@
-# Architecture – My Pi-hole Raspberry Pi 5 Lab
+# `Architecture – My Pi-hole Raspberry Pi 5 Lab`
 
 In this project, I built an isolated Wi-Fi network on my Raspberry Pi 5 and used Pi-hole as a DNS filtering layer for all connected devices.
 
