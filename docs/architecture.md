@@ -72,9 +72,9 @@ I verified who was listening on port 53 with:
 
 At first, I noticed both:
 
--dnsmasq
+- dnsmasq
 
--pihole-FTL
+- pihole-FTL
 
 were associated with port 53.
 
@@ -102,11 +102,11 @@ This allows devices on wlan0 to access the Internet through eth0.
 
 After everything was configured properly:
 
-Total queries increased
+- Total queries increased
 
-Blocked queries increased
+- Blocked queries increased
 
-Multiple clients appeared
+- Multiple clients appeared
 
 Screenshot:
 
