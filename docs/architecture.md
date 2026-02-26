@@ -84,7 +84,7 @@ were associated with port 53.
 
 Screenshot:
 
-![Not Blocking](../screenshots/dnmasq & pihole both connected to port53.png)
+![Not Blocking](../screenshots/bothport53.png)
 
 That led to inconsistent behavior.
 
