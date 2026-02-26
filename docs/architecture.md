@@ -54,11 +54,13 @@ nslookup doubleclick.net 10.42.0.1
 ```
 It returned:
 
-0.0.0.0
+- 0.0.0.0
 
-::
+- ::
 
 Screenshot proof:
+
+![Not Blocking](../screenshots/piholeworks.png)
 
 That means DNS-level blocking is active.
 
@@ -68,7 +70,9 @@ DNS uses port 53.
 
 I verified who was listening on port 53 with:
 
-``` sudo ss -tulpn | grep :53 ```
+``` bash
+sudo ss -tulpn | grep :53
+ ```
 
 At first, I noticed both:
 
@@ -80,10 +84,14 @@ were associated with port 53.
 
 Screenshot:
 
+![Not Blocking](../screenshots/dnmasq&piholebothconnectedtoport53.png)
+
 That led to inconsistent behavior.
 
 After fixing it, only Pi-hole handled DNS:
 
+ ![Not Blocking](../screenshots/onlypiholetoport53.png)
+ 
 ## NAT (Internet Sharing)
 
 To allow hotspot clients to reach the Internet through Ethernet, NAT must be enabled.
@@ -109,6 +117,8 @@ After everything was configured properly:
 - Multiple clients appeared
 
 Screenshot:
+
+![Not Blocking](../screenshots/dashboards.png)
 
 That confirmed:
 - DNS routing works
