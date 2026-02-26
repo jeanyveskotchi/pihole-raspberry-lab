@@ -32,12 +32,19 @@ Internet
 ## Screenshots
 
 - SSH connection: ![SSH](screenshots/ssh%20connection.png)
+- 
 - Installing Pi-hole: ![Install](screenshots/installing%20pihole.png)
+- 
 - DNS conflict (dnsmasq + Pi-hole): ![Conflict](screenshots/bothport53)
+- 
 - Not blocking case: ![NotBlocking](screenshots/piholedoesntwork.png)
+- 
 - Fixed (only Pi-hole on port 53): ![OnlyPiHole](screenshots/onlypiholetoport53.png)
+- 
 - Blocking confirmed (0.0.0.0): ![Blocked](screenshots/piholeworks.png)
+- 
 - Dashboard: ![Dashboard](screenshots/dashboards.png)
+- 
 - Query Log: ![QueryLog](screenshots/querylog.png)
 
 ---
