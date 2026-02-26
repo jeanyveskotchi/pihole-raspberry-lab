@@ -84,7 +84,7 @@ were associated with port 53.
 
 Screenshot:
 
-![Not Blocking](../screenshots/bothport53.png)
+![Not Blocking](../screenshots/bothport53)
 
 That led to inconsistent behavior.
 
