@@ -16,8 +16,8 @@ Pi-hole filters DNS requests.
 Automatically assigns IP addresses to devices.
 
 Example:
--10.42.0.109
--10.42.0.99
+- 10.42.0.109
+- 10.42.0.99
 
 In my lab, NetworkManager provides DHCP.
 
@@ -47,9 +47,9 @@ sudo ss -tulpn | grep :53
 
 A lightweight service that can:
 
--Provide DHCP
+- Provide DHCP
 
--Provide DNS forwarding
+- Provide DNS forwarding
 
 NetworkManager uses it internally in hotspot mode.
 
@@ -59,9 +59,9 @@ Pi-hole’s DNS engine is called pihole-FTL.
 
 It:
 
--Receives DNS queries
+- Receives DNS queries
 
--Checks blocklists
+- Checks blocklists
 
 -Returns 0.0.0.0 for blocked domains
 
