@@ -19,3 +19,8 @@ echo
 
 echo "=== Pi-hole service ==="
 sudo systemctl status pihole-FTL --no-pager -l | sed -n '1,20p' || true
+
+## Make scripts executable (run once)
+``` bash
+chmod +x scripts/*.sh
+```
