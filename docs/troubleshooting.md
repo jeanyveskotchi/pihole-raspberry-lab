@@ -110,6 +110,8 @@ Expected:
 - ::
 
 Screenshot:
+
+
 ![Not Blocking](../screenshots/piholeworks.png)
 
 # Issue 2 – Devices Connected but No Internet
