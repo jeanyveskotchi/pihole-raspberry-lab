@@ -101,3 +101,12 @@ Run:
 - ./scripts/check-nat.sh → NAT (MASQUERADE) sanity check
 
 - ./scripts/quick-status.sh → one-shot health overview
+
+```md
+## License
+
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
