@@ -63,7 +63,7 @@ It:
 
 - Checks blocklists
 
--Returns 0.0.0.0 for blocked domains
+- Returns 0.0.0.0 for blocked domains
 
--Forwards allowed queries upstream
+- Forwards allowed queries upstream
 
