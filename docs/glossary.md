@@ -1,9 +1,4 @@
-
----
-
-# 📁 `docs/glossary.md`
-
-```md
+# `docs/glossary.md`
 # Glossary – Concepts I Learned During This Project
 
 ## DNS (Domain Name System)
@@ -11,7 +6,6 @@
 Converts domain names into IP addresses.
 
 Example: google.com → 142.x.x.x
-
 
 Pi-hole filters DNS requests.
 
