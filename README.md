@@ -1,11 +1,17 @@
-# Pi-hole Raspberry Pi 5 Isolated Lab (NetworkManager Hotspot + Pi-hole DNS)
+# Pi-hole Raspberry Pi 5 Lab
 
-This repo documents how to build an **isolated home-lab Wi-Fi network (PiTestNet)** on a Raspberry Pi 5 and run **Pi-hole** as the DNS server to block ads/trackers for all connected devices.
+## What this does
+Build an isolated Wi-Fi network on Raspberry Pi 5 and run Pi-hole as DNS.
 
-It also documents a common issue: when using **NetworkManager Hotspot (IPv4 method: shared)**, **NetworkManager spawns dnsmasq**, which can conflict with Pi-hole DNS (port 53). This guide shows how to fix it cleanly.
+## Architecture
+(Short diagram here)
 
----
+## Quick Start
+1. Create hotspot
+2. Install Pi-hole
+3. Fix NetworkManager DNS conflict (see docs/troubleshooting.md)
 
-## What you’ll build
-
-**Goal:** IoT devices connect to your Pi hotspot network and use Pi-hole for DNS filtering.
+## Documentation
+- Architecture: docs/architecture.md
+- Troubleshooting: docs/troubleshooting.md
+- Glossary: docs/glossary.md
