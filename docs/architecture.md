@@ -72,9 +72,9 @@ I verified who was listening on port 53 with:
 
 At first, I noticed both:
 
-dnsmasq
+-dnsmasq
 
-pihole-FTL
+-pihole-FTL
 
 were associated with port 53.
 
@@ -89,13 +89,13 @@ After fixing it, only Pi-hole handled DNS:
 To allow hotspot clients to reach the Internet through Ethernet, NAT must be enabled.
 
 I verified NAT using:
-
+``` bash
 sudo iptables -t nat -L -n -v
-
+```
 The important rule is:
-
+``` bash
 MASQUERADE  →  eth0
-
+```
 This allows devices on wlan0 to access the Internet through eth0.
 
 ## Dashboard Validation
@@ -111,9 +111,6 @@ Multiple clients appeared
 Screenshot:
 
 That confirmed:
-
-DNS routing works
-
-Filtering works
-
-Clients are correctly using Pi-hole
+- DNS routing works
+- Filtering works
+- Clients are correctly using Pi-hole
